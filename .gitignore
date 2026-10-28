@@ -1,0 +1,37 @@
+# Datos de Gutenberg: uso local, nunca forman parte de la entrega.
+**/gutenberg_grande/
+**/GutenbergRI/
+**/txt_extraidos/
+**/txt-files*
+**/nltk_data/
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tgz
+*.txt.utf8
+*.txt
+!requirements*.txt
+
+# Entornos y cachés.
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Descargas parciales, auditoría y exportaciones locales.
+*.part
+*.part.json
+*.integridad.json
+*.tmp
+*.temp
+*.log
+**/resultados_deber2/
+/revision_deber2/
+**/02_booleansearch_DEBER2_FINAL.html
+**/GUIA_DEBER2_FINAL.md
+**/requirements_deber2.txt
